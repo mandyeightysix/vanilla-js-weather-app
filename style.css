@@ -5,6 +5,11 @@ body {
     .container {
         max-width: 100%;
     }
+
+    .presetCities {
+        display: flex;
+        flex-wrap: wrap;
+    }
     
     h1 {
     color: white;
@@ -178,4 +183,27 @@ body {
     transition-timing-function: ease-in;
     transition-duration: 2s;
     transition-delay: 1s;
+    }
+
+    @media screen and (max-width: 550px) {
+        .form-control {
+            width: 90%;
+        }
+        .btn-outline-light {
+            font-size: .9rem;
+            padding: .275rem .45rem;
+        }
+        #submitBtn {
+            margin-left: -35px;
+        }
+        #geo-location {
+            margin-left: -28px;
+        }
+        .iconTemp {
+            margin-left: 35px;
+        }
+    }
+
+    @media screen and (max-width:475px) {
+    
     }
