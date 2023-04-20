@@ -65,7 +65,7 @@ body {
     }
     
     #description {
-        text-transform: capitalize;
+    text-transform: capitalize;
     }
     
     .weather-app-wrapper {
