@@ -138,7 +138,7 @@ function formatDate(timestamp) {
     fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
     
     let celsiusLink = document.querySelector("#celsius-link");
-    celsiusLink.addEventListener("click", displayCelsiusTemperature);
+    celsiusLink.addEventListener("click", displayCelsiusTemperature, {passive: true});
     
     function searchCurrentLocation(position) {
     let apiKey = "21d20dbb06095f793410f891f00e7748";
@@ -151,7 +151,7 @@ function formatDate(timestamp) {
     }
     
     let locationButton = document.querySelector("#geo-location");
-    locationButton.addEventListener("click", getMyLocation);
+    locationButton.addEventListener("click", getMyLocation, {passive: true});
     
     function searchCity(city) {
     let apiKey = "21d20dbb06095f793410f891f00e7748";
@@ -180,17 +180,16 @@ function formatDate(timestamp) {
     }
     
     let vancouver = document.querySelector("#vancouver");
-    vancouver.addEventListener("click", displayVancouverTemperature);
+    vancouver.addEventListener("click", displayVancouverTemperature, {passive: true});
     
     let saskatoon = document.querySelector("#saskatoon");
-    saskatoon.addEventListener("click", displaySaskatoonTemperature);
+    saskatoon.addEventListener("click", displaySaskatoonTemperature, {passive: true});
     
     let montreal = document.querySelector("#montreal");
-    montreal.addEventListener("click", displayMontrealTemperature);
+    montreal.addEventListener("click", displayMontrealTemperature, {passive: true});
     
     let halifax = document.querySelector("#halifax");
-    halifax.addEventListener("click", displayHalifaxTemperature);
+    halifax.addEventListener("click", displayHalifaxTemperature, {passive: true});
     
     search("Hamilton");
     
-    window.myWidgetParam ? window.myWidgetParam : window.myWidgetParam = [];  window.myWidgetParam.push({id: 11,cityid: '5964700',appid: '21d20dbb06095f793410f891f00e7748',units: 'metric',containerid: 'openweathermap-widget-11',  });  (function() {var script = document.createElement('script');script.async = true;script.charset = "utf-8";script.src = "//openweathermap.org/themes/openweathermap/assets/vendor/owm/js/weather-widget-generator.js";var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(script, s);  })();
