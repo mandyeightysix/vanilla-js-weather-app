@@ -35,7 +35,7 @@
             type="submit"
             value="Vancouver"
             id="vancouver"
-            value="foo" tabindex="-1"
+            value="foo" tabindex="0"
             aria-label="Vancouver City Preset button"
             />
         </div>
@@ -45,7 +45,7 @@
             type="submit"
             value="Saskatoon"
             id="saskatoon"
-            value="foo" tabindex="-1"
+            value="foo" tabindex="0"
             aria-label="Saskatoon City Preset button"
             />
         </div>
@@ -55,7 +55,7 @@
             type="submit"
             value="Montreal"
             id="montreal"
-            value="foo" tabindex="-1"
+            value="foo" tabindex="0"
             aria-label="Montreal City Preset button"
             />
         </div>
@@ -65,7 +65,7 @@
             type="submit"
             value="Halifax"
             id="halifax"
-            value="foo" tabindex="-1"
+            value="foo" tabindex="0"
             aria-label="Halifax City Preset button"
             />
         </div>
@@ -83,15 +83,15 @@
             </div>
             <div class="col-2">
             <div>
-                <input class="btn btn-outline-light" id="submitBtn" type="submit" value="foo" tabindex="-1"
+                <input class="btn btn-outline-light" id="submitBtn" type="submit" value="Submit" tabindex="0"
                 aria-label="submit button"/>
             </div>
             </div>
             <div class="col-2">
             <div>
-                <button id="geo-location" class="btn btn-outline-light">
-                <i class="fa-solid fa-location-arrow" value="foo" tabindex="-1"
-                aria-label="Geolocation button"></i>
+                <button id="geo-location" class="btn btn-outline-light" value="foo" tabindex="0" aria-label="Geolocation button">
+                <i class="fa-solid fa-location-arrow"
+                ></i>
                 </button>
             </div>
             </div>
@@ -112,9 +112,9 @@
                 <img src="" alt="Sunny" id="icon" class="weather-icon" />
                 <span class="temp" id="temperature">12</span
                 ><span class="units"
-                    ><a href="#" id="celsius-link" class="active" aria-label="celsius link"></a>°C</a>
+                    ><a href="#" id="celsius-link" class="active" tabindex="0">°C</a>
                 <span class="unit-seperator">|</span>
-                    <a href="#" id="fahrenheit-link" aria-label="fahnrenheit link">°F</a></span
+                    <a href="#" id="fahrenheit-link" aria-label="fahnrenheit link" tabindex="0">°F</a></span
                 >
                 </div>
             </div>
@@ -156,7 +156,6 @@
         class="source-link"
         href="https://github.com/mandyeightysix/Weather_App_Project/commit/cc9eb9d44e14d6198117cbac51e1356e5bc107f2"
         target="_blank"
-        aria-label="Visit my Github page"
         >Open-source code</a
         >
         by Amanda Pepin - hosted on
@@ -164,7 +163,6 @@
         class="host-link"
         href="https://jade-frangollo-c19f1f.netlify.app/"
         target="_blank"
-        aria-label="Visit hosting platform Netlify"
         >Netlify</a
         >
     </small>
