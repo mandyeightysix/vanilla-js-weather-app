@@ -72,18 +72,17 @@ body {
     max-width: 600px;
     margin: 30px auto;
     filter: drop-shadow(2px 4px 6px black);
-    background-image: url('fishing.jpg');
-    background-size: contain;
-    background-repeat:no-repeat;
-    background-attachment:fixed;
-    background-position: center;
     }
     
     .weather-app {
     padding: 20px;
     border: 1px solid #dadde1;
     border-radius: 4px;
-    width: 100%
+    background-image: url('fishing.jpg');
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position: center;
     }
     
     .btn-outline-light {
