@@ -162,6 +162,10 @@ body {
     font-size: 18px;
     color: white;
     }
+
+    .myLinks {
+        filter: none;
+    }
     
     .source-link {
     color: #fd8852;
