@@ -1,0 +1,180 @@
+body {
+    font-family: "Radio Canada", sans-serif;
+    }
+    
+    .container {
+        max-width: 100%;
+    }
+    
+    h1 {
+    color: white;
+    font-size: 38px;
+    font-weight: 900;
+    line-height: 48px;
+    margin: 0 auto;
+    text-align: center;
+    }
+    
+    ul {
+    margin: 0;
+    padding: 0;
+    }
+    
+    li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+    li::first-letter {
+    text-transform: capitalize;
+    }
+    
+    #celsius-link {
+    color: white;
+    }
+    
+    .unit-seperator {
+        color: white;
+    }
+    
+    #fahrenheit-link {
+    color: white;
+    }
+    
+    a:link {
+    text-decoration: none;
+    }
+    a:visited {
+    text-decoration: none;
+    }
+    a:hover {
+    text-decoration: none;
+    }
+    a:active {
+    text-decoration: none;
+    }
+    
+    .description-date {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    background-color: rgb(18 12 10 / 13%);
+    filter: drop-shadow(2px 4px 6px black);
+    }
+    
+    #description {
+        text-transform: capitalize;
+    }
+    
+    .weather-app-wrapper {
+    max-width: 600px;
+    margin: 30px auto;
+    filter: drop-shadow(2px 4px 6px black);
+    }
+    
+    .weather-app {
+    padding: 20px;
+    border: 1px solid #dadde1;
+    border-radius: 4px;
+    background-image: url('fishing.jpg');
+    background-size: cover;
+    background-repeat:repeat;
+    background-attachment:fixed;
+    }
+    
+    .btn-outline-light {
+        filter: drop-shadow(2px 4px 6px black);
+    }
+    
+    .form-control {
+        filter: drop-shadow(2px 4px 6px black);
+    }
+    
+    .temperature-container {
+    text-align: center;
+    }
+    
+    #location {
+        filter: drop-shadow(2px 4px 6px black);
+    }
+    
+    .temperature-container img {
+    float: right;
+    display: inline;
+    float: inline-start;
+    filter: drop-shadow(2px 4px 6px black);
+    font-display: auto;
+    }
+    
+    .temp {
+    font-size: 48px;
+    padding-top: 20px;
+    color: white;
+    filter: drop-shadow(2px 4px 6px black);
+    }
+    
+    .icon {
+    font-size: 25px;
+    line-height: 80px;
+    }
+    
+    .units {
+    box-sizing: border-box;
+    color: rgb(89, 86, 86);
+    display: inline;
+    font-size: 13px;
+    font-weight: 400;
+    height: auto;
+    line-height: 88px;
+    position: relative;
+    text-align: left;
+    text-size-adjust: 100%;
+    top: 1px;
+    width: auto;
+    filter: drop-shadow(2px 4px 6px black);
+    }
+    
+    .weather-forecast {
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgb(18 12 10 / 13%);
+    filter: drop-shadow(2px 4px 6px black);
+    }
+    
+    .weather-forecast-date {
+    font-size: 16px;
+    color: white;
+    }
+    
+    .weather-forecast-temperature-min {
+    opacity: 0.6;
+    }
+    
+    .weather-forecast-temperatures {
+    font-size: 18px;
+    color: white;
+    }
+    
+    .source-link {
+    color: #fd8852;
+    text-decoration: none;
+    }
+    
+    .source-link :hover {
+    transition-timing-function: ease-in;
+    transition-duration: 2s;
+    transition-delay: 1s;
+    }
+    
+    .host-link {
+    color: #fd8852;
+    text-decoration: none;
+    }
+    
+    .host-link :hover {
+    transition-timing-function: ease-in;
+    transition-duration: 2s;
+    transition-delay: 1s;
+    }
