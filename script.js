@@ -32,7 +32,6 @@ function formatDate(timestamp) {
     
     function displayForecast(response) {
     let forecast = response.data.daily;
-    console.log(response.data.daily);
     
     let forecastElement = document.querySelector("#forecast");
     
@@ -50,6 +49,7 @@ function formatDate(timestamp) {
             }@2x.png"
             alt=""
             width="42"
+            height="42"
             />
             <div class="weather-forecast-temperatures">
             <span class="weather-forecast-temperature-max"> ${Math.round(
